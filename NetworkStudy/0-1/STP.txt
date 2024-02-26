@@ -4,19 +4,23 @@ Switch3：4097
 問２ ポートの役割
 ・Switch1からルートブリッジであるswitch3への経路は2つあります.
 　2つの経路のルートパスコストを計算すると、
- 　1.switch1-switch3:19
- 　2.switch1-switch2-switch4-switch3:42
-　1番の経路のルートパスコストの方が値が小さいので、右上側のF0/2のポートがルートポートになります。
+ 　1.switch1-switch3:100
+ 　2.switch1-switch2-switch4-switch3:219
+ルートポート：1番の経路のルートパスコストの方が値が小さいので、左側のF0/2
 
 ・Switch2からルートブリッジであるswitch3への経路は2つあります.
 　2つの経路のルートパスコストを計算すると、
- 　1.switch2-switch1-switch3:38
- 　2.switch2-switch4-switch3:23
-　2番の経路のルートパスコストの方が値が小さいので、左上側のF0/1のポートがルートポートになります。
+ 　1.switch2-switch1-switch3:119
+ 　2.switch2-switch4-switch3:200
+ルートポート：1番の経路のルートパスコストの方が値が小さいので、右側のF0/2
 
 ・Switch4からルートブリッジであるswitch3への経路は2つあります.
 　2つの経路のルートパスコストを計算すると、
- 　1.switch4-switch3:4
- 　2.switch4-switch2-switch1-switch3:57
-　1番の経路のルートパスコストの方が値が小さいので、右下側のE0/2のポートがルートポートになります。
+ 　1.switch4-switch3:100
+ 　2.switch4-switch2-switch1-switch3:219
+ルートポート：1番の経路のルートパスコストの方が値が小さいので、右側のE0/2
+
+ルートポート：switch1F0/2、switch2F0/2、switch4E0/2
+指定ポート：switch1F0/1、switch3E0/1、switch3E0/2、switch4E0/1
+ブロッキングポート：Swich2F0/1
 
