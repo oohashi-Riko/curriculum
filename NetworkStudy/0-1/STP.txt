@@ -12,7 +12,7 @@ Switch3：4097
 　2つの経路のルートパスコストを計算すると、
  　1.switch2-switch1-switch3:119
  　2.switch2-switch4-switch3:200
-ルートポート：1番の経路のルートパスコストの方が値が小さいので、右側のF0/2
+ルートポート：1番の経路のルートパスコストの方が値が小さいので、右側のF0/1
 
 ・Switch4からルートブリッジであるswitch3への経路は2つあります.
 　2つの経路のルートパスコストを計算すると、
@@ -20,7 +20,7 @@ Switch3：4097
  　2.switch4-switch2-switch1-switch3:219
 ルートポート：1番の経路のルートパスコストの方が値が小さいので、右側のE0/2
 
-ルートポート：switch1F0/2、switch2F0/2、switch4E0/2
-指定ポート：switch1F0/1、switch3E0/1、switch3E0/2、switch4E0/1
-ブロッキングポート：Swich2F0/1
+ルートポート：switch1F0/2、switch2F0/1、switch4E0/2
+指定ポート：switch3E0/1、switch3E0/2、switch4E0/1、Switch2F0/2
+ブロッキングポート：Swich1F0/1
 
