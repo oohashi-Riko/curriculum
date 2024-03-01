@@ -21,6 +21,6 @@ Switch3：4097
 ルートポート：1番の経路のルートパスコストの方が値が小さいので、右側のE0/2
 
 ルートポート：switch1F0/2、switch2F0/1、switch4E0/2
-指定ポート：switch3E0/1、switch3E0/2、switch4E0/1、Switch2F0/2
-ブロッキングポート：Swich1F0/1
+指定ポート：switch3E0/1、switch3E0/2、switch4E0/1、Switch1F0/1
+ブロッキングポート：Swich2F0/2
 
