@@ -5,4 +5,4 @@
 インターフェイスID:96 76 54 FF FE 32 10 FE
 
 （３）MACアドレス：FFFF.FFFF.FFFF
-インターフェイスID:FE FF FF FF FE FF FF FF
+インターフェイスID:FD FF FF FF FE FF FF FF
